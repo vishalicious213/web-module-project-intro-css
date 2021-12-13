@@ -84,14 +84,14 @@ h1 {
     padding: .1rem 1rem;
 }
 
-#fire {
+#fire, #reservations {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 0;
 }
 
-#fire p {
+#fire p, #reservations p {
     width: 25%;
     font-weight: 600;
     text-align: center;
@@ -101,6 +101,10 @@ h1 {
     width: 10rem;
 }
 
-#fire-img img {
+#fire-img img, #reservations img {
     width: 100%;
+}
+
+#reservations {
+    margin-top: 2rem;
 }
