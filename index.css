@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
 nav {
-    outline: 1px solid red;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5rem;
 }
 
 button {
@@ -9,6 +16,10 @@ button {
     border: none;
     border-radius: .5rem;
     color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1rem;
+    width: 9.5rem;
+    cursor: pointer;
 }
 
 #button1 {
@@ -21,4 +32,44 @@ button {
 
 #button3 {
     background: #FFCD69;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+#header-img {
+    width: 25%;
+}
+
+#header-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#header-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#header-txt p {
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
 }
