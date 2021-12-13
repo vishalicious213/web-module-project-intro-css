@@ -108,3 +108,9 @@ h1 {
 #reservations {
     margin-top: 2rem;
 }
+
+#footer-img {
+    width: 100%;
+    height: 20rem;
+    background: url('./assets/footer_img.jpg');
+}
